@@ -9,9 +9,6 @@
 		"node": true,
 		"jasmine": true
 	},
-	"plugins": [
-		"react"
-	],
 	"rules": {
 		"brace-style": [
 			2,
@@ -101,24 +98,6 @@
 			"single"
 		],
 		"radix": 2,
-		"react/display-name": 0,
-		"react/jsx-boolean-value": 2,
-		"react/jsx-no-undef": 2,
-		"react/jsx-quotes": 1,
-		"react/jsx-sort-prop-types": 0,
-		"react/jsx-sort-props": 0,
-		"react/jsx-uses-react": 0,
-		"react/jsx-uses-vars": 2,
-		"react/no-did-mount-set-state": 1,
-		"react/no-did-update-set-state": 1,
-		"react/no-multi-comp": 0,
-		"react/no-unknown-property": 2,
-		"react/prop-types": 2,
-		"react/react-in-jsx-scope": 2,
-		"react/require-extension": 0,
-		"react/self-closing-comp": 0,
-		"react/sort-comp": 0,
-		"react/wrap-multilines": 2,
 		"semi": 2,
 		"space-after-keywords": [
 			2,
