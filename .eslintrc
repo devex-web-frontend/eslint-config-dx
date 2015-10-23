@@ -1,6 +1,8 @@
 {
+	"parser": "babel-eslint",
 	"ecmaFeatures": {
 		"modules": true,
+		"classes": true,
 		"jsx": true
 	},
 	"env": {
@@ -31,7 +33,10 @@
 		"guard-for-in": 2,
 		"indent": [
 			2,
-			"tab"
+			"tab",
+			{
+				"SwitchCase": 1
+			}
 		],
 		"max-len": [
 			2,
@@ -77,6 +82,14 @@
 			2,
 			"never"
 		],
+		"computed-property-spacing": [
+			2,
+			"never"
+		],
+		"array-bracket-spacing": [
+			2,
+			"never"
+		],
 		"one-var": [
 			2,
 			"never"
@@ -109,10 +122,6 @@
 				"anonymous": "never",
 				"named": "never"
 			}
-		],
-		"space-in-brackets": [
-			2,
-			"never"
 		],
 		"space-in-parens": [
 			2,
