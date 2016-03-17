@@ -45,7 +45,7 @@
 		],
 		"no-dupe-args": 2,
 		"no-eq-null": 2,
-		"no-lonely-if": 2,
+		"no-lonely-if": 0,
 		"no-multi-spaces": 0,
 		"no-multi-str": 2,
 		"no-mixed-spaces-and-tabs": [
